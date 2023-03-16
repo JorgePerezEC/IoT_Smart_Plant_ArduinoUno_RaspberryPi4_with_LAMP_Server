@@ -1,0 +1,5 @@
+CREATE TABLE `dbPrueba`.`tblAlarmaWater` ( `idAlarmaWater` INT NOT NULL AUTO_INCREMENT , `dateAlert` TIMESTAMP NOT NULL COMMENT 'fecha y hora de la alerta' , `mesajesSystem` VARCHAR(100) NOT NULL , `volWater` FLOAT NOT NULL COMMENT 'Cantidad de agua en ml' , PRIMARY KEY (`idAlarmaWater`)) ENGINE = InnoDB;
+
+CREATE TABLE `dbPrueba`.`tblBombaAguaData` ( `idBombaAguaData` INT NOT NULL AUTO_INCREMENT , `dateActivacion` TIMESTAMP NOT NULL , `msgActivacion` VARCHAR(100) NOT NULL COMMENT 'Motivo de la activacion de la bomba' , `tempDHT11` FLOAT NOT NULL , `humedadHigro` FLOAT NOT NULL , `volWater` FLOAT NOT NULL COMMENT 'Volumen de agua en ml' , `luzVal` INT NOT NULL COMMENT 'Valor del sensor de luz' , PRIMARY KEY (`idBombaAguaData`)) ENGINE = InnoDB;
+
+CREATE TABLE `dbPrueba`.`tblSensores` ( `idSensores` INT NOT NULL AUTO_INCREMENT , `SenseDate` TIMESTAMP NOT NULL , `humedadHigro` FLOAT NOT NULL , `temperaturaDHT11` FLOAT NOT NULL , `volWater` FLOAT NOT NULL , `luzVal` INT NOT NULL , PRIMARY KEY (`idSensores`)) ENGINE = InnoDB;
