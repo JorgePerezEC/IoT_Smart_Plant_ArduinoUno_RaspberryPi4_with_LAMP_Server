@@ -1,9 +1,6 @@
 # IoT_Smart_Plant_ArduinoUno_RaspberryPi4_with_LAMP_Server
 Implementation of a system that supports the care of a plant with automatic irrigation through the Arduino Uno hardware along with the use of different sensors such as: DHT11, light sensor, hygrometer and ultrasonic; allows the collection of data from the sensors as well as actions performed in the irrigation system through the Raspberry Pi OS, after this stores the data within a LAMP server. 
 
-<p align="center">
-  <img src="![prototype](https://user-images.githubusercontent.com/102699851/225760972-5a907c6e-7aa1-4204-95c9-4d6f046d3681.png)" alt="descripción-de-la-imagen">
-</p>
 ![prototype](https://user-images.githubusercontent.com/102699851/225760972-5a907c6e-7aa1-4204-95c9-4d6f046d3681.png)
 
 ## Installation
